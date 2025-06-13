@@ -1,0 +1,19 @@
+⚡ Algorithms
+🧑‍💻 Dijkstra’s Algorithm
+Dijkstra’s algorithm is used to compute the shortest path from the aid center to each disaster zone. This ensures that aid is dispatched efficiently to the nearest zones, minimizing response time.
+
+c
+Copy
+Edit
+void dijkstra(int graph[MAX_ZONES][MAX_ZONES], int src, int dist[MAX_ZONES], int prev[MAX_ZONES]) {
+    // Implement Dijkstra's algorithm to calculate shortest paths
+}
+📍 Shortest Path Calculation
+The printShortestPath() function outputs the shortest path from the aid center to the destination zone. This is important for planning the most efficient aid routes.
+
+c
+Copy
+Edit
+void printShortestPath(int prev[MAX_ZONES], int dest, Zone zones[]) {
+    // Prints the shortest path from the aid center to the disaster zone
+}
