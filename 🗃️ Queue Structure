@@ -1,0 +1,4 @@
+typedef struct Queue {
+    int front, rear;              // Queue indices
+    Zone *zones[MAX_ZONES];       // Array of zones in the queue
+} Queue;
