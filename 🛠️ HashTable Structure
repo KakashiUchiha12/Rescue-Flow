@@ -1,0 +1,3 @@
+typedef struct HashTable {
+    ReliefItem items[MAX_ITEMS];  // Array of relief items in inventory
+} HashTable;
