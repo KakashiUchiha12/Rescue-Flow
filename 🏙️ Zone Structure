@@ -1,0 +1,9 @@
+typedef struct Zone {
+    int id;                          // Zone identifier
+    char name[50];                   // Name of the zone
+    int severity;                    // Severity of the disaster
+    int weatherFactor;               // Weather impact on aid delivery
+    int distanceFromAidCenter;       // Distance from the aid center
+    AidPackage aidPackages[MAX_ITEMS]; // Required aid packages
+    int numAidPackages;              // Number of aid packages required
+} Zone;
